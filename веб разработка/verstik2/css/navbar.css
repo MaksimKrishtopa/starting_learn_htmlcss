@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    background-color: rgb(29, 29, 29);
+}
+
+.nav_list {
+    display: flex;
+}
+
+.nav_list a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_list a:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+
+.nav_btn {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .nav_btn {
+        font-size: 2em;
+        padding-inline: 10px;
+        padding-bottom: 3px;
+        border: none;
+        background-color: rgb(29, 29, 29);
+        color: white;
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav_list {
+        display: none;
+    }
+
+    .nav_btn:hover {
+        background-color: rgb(70, 70, 70);
+    }
+
+    .drop:hover .nav_list {
+        display: block;
+        position: absolute;
+        right: 1px;
+        background-color: rgb(29, 29, 29);
+
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+}

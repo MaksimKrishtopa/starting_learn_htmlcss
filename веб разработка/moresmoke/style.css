@@ -1,0 +1,47 @@
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.logo {
+    position: absolute;
+}
+header {
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 133px;
+    background-color: #05003A;
+    box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.396);
+    position: sticky;
+}
+
+.nav_item {
+    padding-right: 0;
+    padding-left: 44px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav {
+
+    position: sticky;
+    padding-left: 916px;
+    padding-right: 350px;
+    padding-top: 66px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+

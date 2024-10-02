@@ -1,0 +1,71 @@
+
+img {
+    margin-top:15px ;
+}
+
+.inn {
+    position: absolute;
+    top: 20px;
+    left: 275px;
+    
+}
+
+.kod {
+    height: 30px;
+    width: 50px;
+    border: 1px dotted black;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px dotted black;
+}
+
+
+
+.h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+
+.KND {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+legend {
+    text-align: center;
+}
+
+#family {
+    margin-left: 2px;
+}
+
+#name {
+    margin-left: 35px;
+}
+
+#otche {
+    margin-left: 0px;
+}
+
+#kvd {
+    margin-left: 20px;
+}
+#ser {
+    margin-left: 56px;
+}
+#ksn {
+    margin-left: 25px;
+}
+#ksn_2 {
+    margin-left: 260px;
+}
+#telef {
+    margin-left: 20px;
+}

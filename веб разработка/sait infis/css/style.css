@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+html {
+    height: auto;
+    width: auto;
+    font-size: 10px;
+}
+
+body {
+    background-image: url(/image/pawel-czerwinski-009elgvBM_A-unsplash\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    
+}
+
+/* ///////!!!!!******Шапка */
+
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #121212;
+    height: 146px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.281);
+}
+
+.container {
+    padding-bottom: 2em;
+    padding-top: 2em;
+    width: 1700px;
+    height: 109px;
+}
+
+.header_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    margin-left: 20em;
+}
+
+.logo:hover {
+  transform: translate(-2.5px,-2.5px);
+  transition: transform .3s;
+  filter: drop-shadow( -0.25rem 0.6rem 1.75em rgba(255, 255, 255, 0.35));
+}
+
+.header_nav {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.header_nav ul {
+    display: flex;
+}
+
+.header_nav li + li {
+    margin-left: 2.8em;
+}
+
+
+
+.header_nav a:hover {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.75);
+    transition: 0.3s ease;
+}
+
+.firststr {
+    
+    margin-bottom: 2px;
+    
+}
+
+.header_login {
+    width: 8.5em;
+    height: 11em;
+    font-weight: 700;
+}
+
+
+.autorize_buttons {
+    font-weight: 700;
+    width: 8.5em;
+    height: 11em;
+
+
+}
+
+
+.circle {
+    background: #ffffff;
+    border: 0.4em solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0.700em 0.700em 0 0 rgba(12, 12, 12, 0.125);
+    height: 8.5em;
+    width: 8.5em;
+}
+
+.input {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0.2em;
+}
+
+.logpass {
+    font-size: 2.4em;
+}
+
+
+.h_autorize {
+    font-size: 3.6em;
+}
+
+.ili {
+    font-size: 2.4em;
+}
+
+.vkinput {
+    font-size: 3.2em;
+}
+
+
+
+
+
+/* ///////!!!!!******Секция новостей и матчей на главной */
+
+
+.news_matches {
+    width: 1600px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 20em;
+    top: 5em;
+}
+
+
+.ttitnews {
+    
+    image-rendering: optimizeQuality;
+}
+
+.ttitnews:hover {
+    animation: myAnim 0.3s ease 0s 1 normal forwards;
+    
+}
+
+
+.tusurnews {
+    
+    image-rendering: optimizeQuality;
+}
+
+.tusurnews:hover {
+    animation: myAnim 0.3s ease 0s 1 normal forwards;
+    z-index: 2;
+    
+}
+
+@keyframes myAnim {
+	
+	100% {
+		transform: scale(1.1);
+	}
+}
+
+.frsttext {
+    position: relative;
+    bottom: 5.2em;
+    left: 1em;
+    float: unset;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    color: black;
+    
+}
+
+.secondtext {
+    position: relative;
+    bottom: 5.2em;
+    left: 1em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    color: black;
+   
+    
+}
+
+.matches {
+    z-index: 0;
+    position: relative;
+    bottom: 1em;
+    image-rendering: optimizeQuality;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.matchi {
+    width: 23.3em;
+    position: absolute;
+    top: 9em;
+    right: 6.75em;
+    list-style-type: none;
+    image-rendering: optimizeQuality;
+    height: 48em;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+}
+
+.matchi li + li {
+    margin-top: 0.5em;
+}
+
+
+
+
+
+
+/* !//подвал */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #121212;
+    
+}
+
+.ap {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    width: 700px;
+    height: 4em;
+    position: relative;
+    left: 836px;
+    top: 2em;
+    bottom: 2em;
+}
+
+.Copyright {
+    display: flex;
+    justify-content: end;
+    width: 120px;
+    margin-left: 1634px;
+}
+
+
+.social {
+    position: relative;
+    left: 25em;
+    bottom: 4em;
+    width: 116px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.vk + .wts .telega {
+    padding-left: 22px;
+}
+
+
+.short {
+    width: 183px;
+    position: relative;
+    top: 41px;
+    left: 15px;
+    bottom: 41px;
+    border: none; 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(255, 255, 255); 
+    height: 1px; 
+}
+
+.long {
+    width: 409px;
+    position: relative;
+    top: 41px;
+    left: 418px;
+    bottom: 41px;
+    border: none; 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(255, 255, 255); 
+    height: 1px;
+}

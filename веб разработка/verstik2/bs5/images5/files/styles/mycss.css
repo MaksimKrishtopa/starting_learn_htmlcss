@@ -1,0 +1,44 @@
+@import url ('https://fonts.googleapis.com/css?family=impact&display=swap');
+
+
+body {
+    font-family: Impact, serif;
+    background: linear-gradient(90deg, #00009C 0%, #000000 100%, #000 101%, #fff 100%);
+}
+
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: #b6b6b6;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: #b6b6b6;
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #000481 0%, #000000 100%, #000 101%, #fff 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, #000481 0%, #000000 100%, #000 101%, #fff 100%);
+    color: aquamarine;
+} 
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.carousel-item p {
+    color: aquamarine;
+    margin: auto;
+}
